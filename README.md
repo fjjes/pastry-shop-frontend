@@ -10,6 +10,7 @@ HOW TO RUN:
 After clonning this repository to your computer, in your terminal:
 
 npm install 
+
 npm start
 
 Then in your browser: http://localhost:3000
