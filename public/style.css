@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/cake\ background.jpeg);
+    background-color: #333;
+    background-size: 150px;
+  }
+  
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color:rgb(207, 156, 126);;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+  }
+
+  #title{
+    background-color:white;
+    text-align: center;
+  }
+
+  .sub-container1 {
+    background-color: rgb(218, 192, 158);
+    width: 35%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ img{
+   float:right;
+   filter:grayscale(30%);
+ }
+  #enter {
+    background-color: hsl(200, 38%, 6%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+
+  #enter:hover {
+    background-color: rgb(63, 27, 5);
+  }

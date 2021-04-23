@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Project1: Cafe API</title>
+</head>
+<script type="text/javascript" src="script.js"></script>
+<body>
+        <div class="container">
+            <h1 id = "title">TreatOTreat</h1>
+            <div class="sub-container1">
+                    <table class="table1">
+                        <caption>Our Menu:</caption>
+                            <tr>
+                                <td>A butter Cake</th><th>$40</th> 
+                            </tr>
+                            <tr>
+                                <td>1 box of Cookies</th><th>$5</th> 
+                            </tr>
+                            <tr>
+                                <td>1 box of Macarons</th><th>$20</th> 
+                            </tr>
+                            <tr>
+                                <td>Dozen of Cake pops</th><th>$15</th> 
+                            </tr>
+                    </table>
+            </div><br>
+            <img src="/images/pasty.png" alt="pasty" width="100" heigh="300"> 
+
+            <div class="bottom">
+                <div class= "sub-container2">
+                    <div id="text">Welcome to <b><em>TreatOTreat!</em></b> What would you like to have?</div><br>
+                    <div id="optionList">
+                        <input type="radio" name="menuOption" value="buttercake">Butter Cake
+                        <input type="radio" name="menuOption" value="cookies">Cookies
+                        <input type="radio" name="menuOption" value="macarons">Macarons
+                        <input type="radio" name="menuOption" value="cakepops">Cakepops<br><br>
+                    </div>
+                </div>
+                    <input id="quantity" type="number" min="1" placeholder="QuantityOfSelectedItem" required>
+                    <button id="enter" onclick="onTreatClick(event)">Enter</button> 
+            </div> 
+
+    </div>
+    
+</body>
+</html>

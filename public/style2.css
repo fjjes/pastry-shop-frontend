@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/cake\ background.jpeg);
+    background-color: #333;
+    background-size: 150px;
+  }
+  #title{
+    background-color: white;
+    text-align: center;
+  }
+  
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color:rgb(207, 156, 126);;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+  }
+  table {
+    border-collapse: collapse;
+    background-color: rgb(218, 192, 158);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  th,
+  td {
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
+  }
+  thead{
+    background: #395870;
+    color: #fff;
+  }
+  #enter {
+    background-color: hsl(200, 38%, 6%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    float:right
+  }
+
+  #enter:hover {
+    background-color: rgb(63, 27, 5);
+    cursor: pointer;
+  }
+
+  #tabletitle{
+    font-weight: bold;
+  }
+
+  #finalmessage{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #totaltext{
+    text-align: right;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Project1: Cafe API</title>
+</head>
+<script type="text/javascript" src="total.js"></script>
+<body onload="total()">
+    <div class="container">
+        <h1 id= "title">TreatOTreat</h1>
+        <div class= "sub-container2">
+            <table id="billTable">
+                <caption id="tabletitle">Here's your list of orders:</caption>
+                    <tr>
+                        <th id="name">Item</th><th id="quantity">Qty</th><th id="unitPrice" >Unit Price ($)</th><th id="lineTotal">Line Total ($)</th>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <th id="totaltext" colspan="3">Your Total: </th>
+                        <th id="total">totalprice</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <p id="finalmessage">Please proceed with your payment.<br>Have a good day!!</p>
+        </div>
+            <button id="enter" onclick="onTreatClick(event)"> --> New Order</button>   
+    </div>
+    <script>
+        const onTreatClick = (event) => {
+                event.preventDefault()
+                
+                location.href= "index.html" 
+        }
+    </script>
+</body>
+</html>

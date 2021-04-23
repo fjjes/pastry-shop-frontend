@@ -1,0 +1,49 @@
+As a user get product list (sort them by price or alphebetical order!!!!)
+-name
+-unit
+-quantity
+-price
+
+GET /api/product/list
+
+lookup for a specific item
+GET /api/product/list/:name !!!!!!
+
+-----------------------------------------------------------------------------------
+As a user add orders to the empty order list
+-name
+-unit
+-quantity 
+-price
+
+POST /api/orders/add
+
+-----------------------------------------------------------------------------------
+As a user update order quantity          OR
+-quantity
+
+PUT /api/orders/update
+
+update the order object(add properties to it)
+
+
+-----------------------------------------------------------------------------------
+As a user get the ordered list at the end
+
+GET /api/orders/list
+
+-----------------------------------------------------------------------------------
+As a user delete a list item before payment
+
+delete /api/orders/remove
+
+
+
+curl http://localhost:3000/api/waiter/intro
+
+curl -X POST -H "Content-Type: application/json" -d '{"name":"cookies","quantity":"1"}' http://localhost:3000/api/orders/create
+curl -X DELETE http://localhost:3000/api/orders/cookies
+curl -X POST -H "Content-Type: application/json" -d '{"name":"cookies","quantity":"2"}' http://localhost:3000/api/orders/update/cookies
+curl http://localhost:3000/api/orders/list
+
+
